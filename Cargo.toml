@@ -1,12 +1,11 @@
 [package]
-name = "mmap-rs"
+name = "mmap-rs-with-map-from-existing"
 version = "0.6.0"
 edition = "2021"
-authors = ["Stephan van Schaik <stephan@synkhronix.com>"]
+authors = ["Sewer56", "Stephan van Schaik <stephan@synkhronix.com>"]
 license = "Apache-2.0 OR MIT"
-description = "A cross-platform and safe Rust API to create and manage memory mappings in the virtual address space of the calling process."
-homepage = "https://codentium.com"
-repository = "https://github.com/StephanvanSchaik/mmap-rs"
+description = "A temporary fork of mmap-rs with support for creating pages from raw memory. Will be deprecated in near future."
+repository = "https://github.com/Sewer56/mmap-rs/tree/unsafe-existing-map-api"
 keywords = ["mmap", "memory", "mapping", "VirtualAlloc"]
 
 [dev-dependencies]
